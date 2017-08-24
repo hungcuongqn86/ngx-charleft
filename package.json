@@ -1,6 +1,6 @@
 {
   "name": "ngx-charleft",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "angular directive to count the remaining characters of the input",
   "main": "index.js",
   "scripts": {

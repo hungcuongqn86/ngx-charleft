@@ -6,7 +6,7 @@ $ npm install ngx-charleft --save
 
 ## Implementation
 ```
-import {CharLeftDirective} from './ngx-charleft';
+import {CharLeftDirective} from 'ngx-charleft';
 
 @NgModule({
   declarations: [

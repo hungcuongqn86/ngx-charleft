@@ -22,10 +22,9 @@ You need add ngModel for input
 ```
 <input [(ngModel)]="mod.title"
          name="title"
-         [niCharLeft]="opt">
+         [niCharLeft]="50">
 ```
 ## Options
-  count: Number of characters, default 50,
   labelClass: class of tip,
   labelText: text of tip,
   primaryColor,
@@ -33,11 +32,11 @@ You need add ngModel for input
   
   example
   ```
-  opt = {
-    count: 50,
-    labelClass: 'labelClass',
-    labelText: 'characters left',
-    primaryColor: 'blue',
-    dangerColor: 'red'
-  };
+  <input [(ngModel)]="mod.title"
+         name="title"
+         [niCharLeft]="50"
+         [labelClass]="'lab-charLeft'"
+         [primaryColor]="'blue'"
+         [dangerColor]="'red'"
+         class="form-control">
   ```

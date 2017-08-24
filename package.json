@@ -1,0 +1,26 @@
+{
+  "name": "ngx-charleft",
+  "version": "1.0.0",
+  "description": "angular directive to count the remaining characters of the input",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hungcuongqn86/ngx-charleft.git"
+  },
+  "keywords": [
+    "angular",
+    "charleft",
+    "characters",
+    "left",
+    "count"
+  ],
+  "author": "cuongnh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hungcuongqn86/ngx-charleft/issues"
+  },
+  "homepage": "https://github.com/hungcuongqn86/ngx-charleft#readme"
+}

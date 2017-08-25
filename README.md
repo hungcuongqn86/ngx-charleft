@@ -18,7 +18,7 @@ import {CharLeftDirective} from 'ngx-charleft';
 ```
 
 Add it to your [template]:
-You need add ngModel for input
+You need add ngModel to input
 ```
 <input [(ngModel)]="mod.title"
          name="title"
